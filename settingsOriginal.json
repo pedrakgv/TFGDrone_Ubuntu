@@ -1,0 +1,35 @@
+{
+  "ClockType": "SteppableClock",
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "Vehicles": {
+    "Drone1": {
+      "LockStep": true,
+      "UseSerial": false,
+      "UseTcp": true,
+      "VehicleType": "PX4Multirotor",
+                                                "LocalHostIp": "172.22.16.1",
+      "TcpPort": 4560,
+                                                "ControlIp": "172.22.30.141",
+      "ControlPortLocal": 14540,
+      "ControlPortRemote": 14580,
+      "QgcHostIp": "127.0.0.1",
+      "QgcPort": 14550,
+      "Parameters": {
+        "COM_OBL_ACT": 1,
+        "LPE_LAT": 40.544167,
+        "LPE_LON": -4.011747,
+        "NAV_DLL_ACT": 0,
+        "NAV_RCL_ACT": 0
+      },
+      "X": 0,
+      "Y": 0,
+      "Z": -5.0,
+      "Roll": 0.0,
+      "Pitch": 0.0,
+      "Yaw": 0.0
+    }
+  },
+  "ViewMode": "SpringArmChase"
+}
